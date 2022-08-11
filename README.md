@@ -17,6 +17,8 @@ To control temi movement on its axis, use command
 ```Java
 Robot.getInstance().skidJoy(float xAxis, float yAxis);
 ```
+![TemiAxis](https://user-images.githubusercontent.com/60066012/184134438-be35d867-6660-45cf-870f-e3e516af594a.png)
+
 To control temi turn by a certain degree, use command
 ```Java
 Robot.getInstance().turnBy(int degrees, float speed);
